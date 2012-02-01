@@ -10,7 +10,6 @@ if len(sys.argv) <= 1:
   sys.exit();
 
 params = urllib.urlencode([
-#    ('js_code', sys.argv[1]),
     ('compilation_level', 'SIMPLE_OPTIMIZATIONS'),
     ('output_format', 'json'),
     ('output_info', 'compiled_code'),
